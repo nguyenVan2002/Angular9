@@ -1,0 +1,56 @@
+.myfirstcss{
+    color: red;
+    font-size: xx-large;
+}
+.color{
+    color:blueviolet;
+    font-size: x-large;
+}
+.underAge{
+    color:red;
+    background-color: yellowgreen;
+}
+.overAge{
+    color:white;
+    background-color: blue;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.header{
+        background-color: yellow;
+        width: 60%;
+        height: 400px;
+        text-align: center ;
+        display: inline-block;
+        line-height: 400px;
+}
+
+.sidebar{
+        background-color: green;
+        float: left;
+        width: 40%;
+        height: 600px;
+        text-align: center ;
+        line-height: 600px;
+}
+.content{
+        background-color: pink;
+        float: right;
+        width: 60%;
+        height: 200px;
+        text-align: center ;
+        // line-height: 200px;
+        
+}
+.footer{
+    background-color:blueviolet;
+    text-align:center;
+    padding:25px;
+    font-size:18px;
+    margin-top: 200px;
+    display: block;
+}
